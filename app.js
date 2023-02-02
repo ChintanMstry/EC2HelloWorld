@@ -5,7 +5,7 @@ const app = express();
 
 app.get("/",  cors(), (req, resp) => {
     //resp.send("working");
-    resp.json([{ "STATUS": "ACTIVE" }]);
+    resp.json([{ "STATUS": "INSTACE1-ACTIVE" }]);
   });
 
 app.listen(port, console.log(`Server started at port ${port}`));
